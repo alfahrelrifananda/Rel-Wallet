@@ -34,7 +34,7 @@ export default function TabLayout() {
           name="index"
           options={{
             title: "",
-            headerTitle: "My Wallet",
+            headerTitle: "Rel Wallet",
             tabBarIcon: ({ color, size }) => (
               <MaterialIcons
                 name="account-balance-wallet"

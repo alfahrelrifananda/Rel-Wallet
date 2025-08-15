@@ -43,9 +43,7 @@ export default function ActionCard({ balance, addTransaction }: ActionCardProps)
 	};
 
 	return (
-		<View style={actionStyles.actionCard}>
-			<Text style={actionStyles.sectionTitle}>Quick Actions</Text>
-			
+		<View style={actionStyles.actionCard}>			
 			<View style={actionStyles.inputContainer}>
 				<TextInput
 					style={actionStyles.input}
