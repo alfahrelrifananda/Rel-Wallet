@@ -35,7 +35,7 @@ export default function TransactionItem({
 					? transactionStyles.creditAmount 
 					: transactionStyles.debitAmount
 			]}>
-				{transaction.type === 'credit' ? '+' : '-'}${transaction.amount.toFixed(2)}
+				{transaction.type === 'credit' ? '+' : '-'}Rp. {transaction.amount}
 			</Text>
 		</View>
 	);

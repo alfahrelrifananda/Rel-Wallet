@@ -10,7 +10,7 @@ export default function BalanceCard({ balance }: BalanceCardProps) {
 	return (
 		<View style={balanceStyles.balanceCard}>
 			<Text style={balanceStyles.balanceLabel}>Available Balance</Text>
-			<Text style={balanceStyles.balanceAmount}>${balance.toFixed(2)}</Text>
+			<Text style={balanceStyles.balanceAmount}>Rp. {balance}</Text>
 		</View>
 	);
 }

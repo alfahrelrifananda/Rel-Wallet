@@ -21,7 +21,7 @@ export default function ActionCard({ balance, addTransaction }: ActionCardProps)
 		addTransaction('credit', value, description || 'Money Added');
 		setAmount('');
 		setDescription('');
-		Alert.alert('Success', `Rp. ${value.toFixed(2)} added to wallet`);
+		Alert.alert('Success', `Rp. ${value} added to wallet`);
 	};
 
 	const spendMoney = () => {
@@ -39,7 +39,7 @@ export default function ActionCard({ balance, addTransaction }: ActionCardProps)
 		addTransaction('debit', value, description || 'Money Spent');
 		setAmount('');
 		setDescription('');
-		Alert.alert('Success', `Rp. ${value.toFixed(2)} spent from wallet`);
+		Alert.alert('Success', `Rp. ${value} spent from wallet`);
 	};
 
 	return (

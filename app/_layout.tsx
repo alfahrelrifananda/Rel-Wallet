@@ -47,7 +47,7 @@ export default function TabLayout() {
         <Tabs.Screen
           name="transactions"
           options={{
-            title: "das",
+            title: "",
             headerTitle: "All Transactions",
             tabBarIcon: ({ color, size }) => (
               <MaterialIcons name="receipt-long" size={size} color={color} />
