@@ -15,12 +15,12 @@ export default function TabLayout() {
             backgroundColor: "#1C1C23",
             elevation: 8,
             paddingVertical: 8,
-            borderTopWidth: 1,
             borderTopColor: "#2D2D37",
           },
           headerStyle: {
             backgroundColor: "#0F0F14",
             elevation: 4,
+            borderBottomColor: "transparent"
           },
           headerTintColor: "#E8E8F0",
           headerTitleStyle: {
