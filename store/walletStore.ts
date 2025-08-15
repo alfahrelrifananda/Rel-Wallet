@@ -2,12 +2,12 @@ import { create } from 'zustand';
 import { WalletState, Transaction } from '../types/wallet';
 
 export const useWalletStore = create<WalletState>((set) => ({
-	balance: 1000.00,
+	balance: 0.00,
 	transactions: [
 		{
 			id: 1,
 			type: 'credit',
-			amount: 1000.00,
+			amount: 0.00,
 			description: 'Initial Balance',
 			date: new Date().toISOString(),
 		}
