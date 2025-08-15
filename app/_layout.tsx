@@ -9,7 +9,7 @@ export default function TabLayout() {
       <StatusBar style="light" backgroundColor="#0F0F14" />
       <Tabs
         screenOptions={{
-          tabBarActiveTintColor: "#A5A6FF",
+          tabBarActiveTintColor: "white",
           tabBarInactiveTintColor: "#8B8B95",
           tabBarStyle: {
             backgroundColor: "#1C1C23",

@@ -18,7 +18,6 @@ export default function HomeScreen() {
 			<ActionCard balance={balance} addTransaction={addTransaction} />
 
 			<View style={screenStyles.recentTransactions}>
-				<Text style={screenStyles.sectionTitle}>Recent Transactions</Text>
 				
 				{transactions.slice(0, 3).map((transaction) => (
 					<TransactionItem

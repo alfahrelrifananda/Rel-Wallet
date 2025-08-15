@@ -27,9 +27,9 @@ export const balanceStyles = StyleSheet.create({
     textTransform: 'uppercase',
   },
   balanceAmount: {
-    fontSize: 40,
+    fontSize: 45,
     fontWeight: '700',
-    color: '#A5A6FF',
+    color: 'white',
     letterSpacing: -1,
   },
 });

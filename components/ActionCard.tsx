@@ -67,11 +67,11 @@ export default function ActionCard({ balance, addTransaction }: ActionCardProps)
 
 			<View style={actionStyles.buttonContainer}>
 				<TouchableOpacity style={actionStyles.addButton} onPress={addMoney}>
-					<Text style={actionStyles.buttonText}>Add Money</Text>
+					<Text style={actionStyles.buttonText}>+</Text>
 				</TouchableOpacity>
 				
 				<TouchableOpacity style={actionStyles.spendButton} onPress={spendMoney}>
-					<Text style={actionStyles.buttonText}>Spend Money</Text>
+					<Text style={actionStyles.buttonText}>-</Text>
 				</TouchableOpacity>
 			</View>
 		</View>

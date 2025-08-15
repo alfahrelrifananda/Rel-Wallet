@@ -9,12 +9,7 @@ export default function TransactionsScreen() {
 
 	return (
 		<ScrollView style={screenStyles.container}>
-			<View style={screenStyles.transactionHeader}>
-				<Text style={screenStyles.sectionTitle}>All Transactions</Text>
-				<Text style={screenStyles.transactionCount}>
-					{transactions.length} transactions
-				</Text>
-			</View>
+		
 			
 			{transactions.map((transaction) => (
 				<View key={transaction.id} style={screenStyles.transactionWrapper}>

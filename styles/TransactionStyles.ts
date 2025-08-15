@@ -8,7 +8,7 @@ export const transactionStyles = StyleSheet.create({
     paddingVertical: 16,
     paddingHorizontal: 4,
     borderBottomWidth: 1,
-    borderBottomColor: '#2D2D37',
+    borderBottomColor: 'transparent',
   },
   transactionInfo: {
     flex: 1,
